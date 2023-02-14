@@ -1,0 +1,274 @@
+@font-face {
+    font-family: monserat400;
+    src: url(./assets/Font/static/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: monserat900;
+    src: url(./assets/Font/static/Montserrat-ExtraBold.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: monserat400;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    width: 80%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.menu {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.menu a {
+    margin: 0 15px;
+    color: #737373;
+}
+
+.menu img {
+    width: 25px;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.block {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.block h1 {
+    font-size: 50px;
+    font-family: monserat900;
+}
+
+.block p {
+    width: 60%;
+    color: #737373;
+}
+
+.getBtn {
+    padding: 15px 40px;
+    background-color: #FFA62B;
+    color: white;
+    border-radius: 30px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.learnBtn {
+    padding: 15px 30px;
+    background-color: transparent;
+    border: 1px solid #00A0C1;
+    color: #00A0C1;
+    border-radius: 30px;
+    margin: 0 15px;
+}
+
+.cardBlock {
+    position: absolute;
+    display: flex;
+    bottom: -50px;
+    gap: 20px;
+}
+.cardBlock .card{
+    width: 29%;
+    background-color: white;
+    box-shadow: 0 15px 10px #f0eded;
+    padding: 25px;
+    border-radius: 5px;
+}
+.cardBlock img{
+    width: 40px;
+}
+.cardBlock h2{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.cardBlock p {
+    font-size: 14px;
+    width: 100%;
+}
+.cardBlue{
+    background-color: #00A0C1  !important;
+    color: white ;
+}
+.cardBlue p{
+    color: white;
+}
+
+.chooseBlock{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+ 
+.title{
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+.paragraf{
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+.chooseCardBlock{
+    width: 80%;
+    display: flex;
+    margin: 30px auto;
+    justify-content: space-between;
+
+}
+.chooseCard{
+    width: 24%;
+    background-color: white;
+    padding: 15px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.chooseCard img {
+    width: 50px;
+}
+.chooseCard h2 {
+    margin: 10px 0;
+}
+.chooseCard p{
+    width: 100%;
+}
+
+.advice{ text-align: start;}
+.advice h2{ font-size: 15px;}
+.advice p { 
+    font-size: 14px;
+    color: #737373; 
+}
+.advice img{
+    width: 170px;
+    border-radius: 10px;
+}
+
+.serviceBlock{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.serviceImg{
+    width: 100%;
+    height: 100%;
+}
+
+.service{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.box-foto{
+    width: 45%;
+}
+.box-text{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.box-text h2{
+    font-size: 45px;
+}
+.box-text p{
+    margin: 20px 0;
+    color: gray;
+}
+.box{
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: start;
+    margin: 15px 0;
+    width: 80%;
+}
+
+.box img{
+    width: 30px;
+}
+.box span{
+    color: #737373;
+    margin: 10px 0;
+    display: block;
+}
+
+
+main{
+    width: 100%;
+    height: 250px;
+    background-color: #f0eded;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.serviceLogo{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.serviceLogo img {
+    width: 80px;
+}
+
+

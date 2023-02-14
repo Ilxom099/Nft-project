@@ -1,0 +1,74 @@
+@media screen and (max-width: 600px) {
+        nav .menu{
+            display: none;
+        }
+       
+        .block{
+            width: 100%;
+            text-align: center;
+            height: 100%;
+            padding-top: 70px;
+        }
+        .block p{
+            margin: 0 auto;
+        }
+        .getBtn{
+            margin: 20px 0;
+        }
+       
+        .background{
+            height: 100%;
+            background-position: 45% ;
+        }
+        
+        .cardBlock{
+            flex-direction: column;
+            position: static;
+            padding: 30px 0;
+        }
+        .cardBlock .card{
+            width: 100%;
+        }
+
+        .paragraf{
+            width: 100%;
+        }
+        .chooseBlock{
+            height: 100%;
+        }
+        .chooseCardBlock{
+            flex-direction: column;
+            gap: 20px;
+        }
+        .chooseCard{
+            width: 100%;
+            gap: 20px;
+        }
+        .serviceBlock{
+            height: 100%;
+        }
+        .service{
+            flex-direction: column;
+        }
+        .box-foto, .box-text{
+            width: 100%;
+        }
+        .box-text h2{
+            font-size: 30px;
+            margin: 20px 0;
+        }
+        main{
+            height: 100%;
+        }
+        .serviceLogo{
+            flex-direction: column;
+            gap: 30px;
+            padding: 20px 0;
+        }
+        .serviceLogo img {
+            width: 40%;
+        }
+       
+
+
+}
